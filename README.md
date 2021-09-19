@@ -4,4 +4,4 @@
 
 * Top Left HLRE Logo 400x120 pixels
 
-![HLRE Logo](/images/.png)
+![HLRE Logo](images/hlre-logo-top-left.png)
