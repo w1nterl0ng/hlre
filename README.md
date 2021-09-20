@@ -42,3 +42,9 @@
 ## Audio
 
 [audio file](audio/cars-and-bike-no-copyright.mp3)
+
+## Config Files
+
+SDK-Gaming LiveTiming Templates
+
+Trucks: [timing file](config-files/HLRE-Broadcast-Truck.IRacingLiveTimingProject)
