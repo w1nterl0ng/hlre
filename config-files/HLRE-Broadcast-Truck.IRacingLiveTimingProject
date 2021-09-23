@@ -10497,7 +10497,11 @@ background-image: url(https://github.com/w1nterl0ng/hlre/raw/main/images/truck-l
 }
 
 
+/* Custom Overrides not in the original css */
 
+.overlay&gt;.start-lights {
+    display: none;
+}
 
 /* The following list represents the different components available on your overlay. Adjust the top/bottom/left/right
 figures to move the component around the overlay and use the "TranslateZ" value to scale the component up or down!*/

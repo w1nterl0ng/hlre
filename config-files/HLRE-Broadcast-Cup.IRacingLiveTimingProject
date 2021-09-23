@@ -10497,6 +10497,11 @@ background-image: url(https://github.com/w1nterl0ng/hlre/raw/main/images/cup-lea
 }
 
 
+/* Custom Overrides not in the original css */
+
+.overlay&gt;.start-lights {
+    display: none;
+}
 
 
 /* The following list represents the different components available on your overlay. Adjust the top/bottom/left/right
