@@ -39,6 +39,21 @@
 * Splash Page Event Logo
 ![HLRE Logo](images/truck-full-splash.png)
 
+
+### FiRS Images
+
+* Top Left FiRS Logo
+![HLRE Logo](images/firs-logo-top-left.png)
+
+* Top Right Series Logo - Use the HLRE Top Left Logo
+
+* Right Event Logo - No Right Event Logo
+
+* Splash Page Event Logo
+![HLRE Logo](images/firs-full-splash.png)
+
+
+
 ## Audio
 
 [audio file](audio/cars-and-bike-no-copyright.mp3)
@@ -52,3 +67,5 @@ Cup: [Live Timing File](config-files/HLRE-Broadcast-Cup.IRacingLiveTimingProject
 National: [Live Timing File](config-files/HLRE-Broadcast-National.IRacingLiveTimingProject)
 
 Trucks: [Live Timing File](config-files/HLRE-Broadcast-Truck.IRacingLiveTimingProject)
+
+FiRS: [Live Timing File](config-files/HLRE-Broadcast-FiRS.IRacingLiveTimingProject)
