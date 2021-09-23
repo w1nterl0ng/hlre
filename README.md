@@ -49,6 +49,6 @@ SDK-Gaming LiveTiming Templates
 
 Cup: [Live Timing File](config-files/HLRE-Broadcast-Cup.IRacingLiveTimingProject)
 
-National: [Live Timing File](config-files/HLRE-Broadcast-Nat.IRacingLiveTimingProject)
+National: [Live Timing File](config-files/HLRE-Broadcast-National.IRacingLiveTimingProject)
 
 Trucks: [Live Timing File](config-files/HLRE-Broadcast-Truck.IRacingLiveTimingProject)
