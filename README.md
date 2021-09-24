@@ -6,6 +6,11 @@
 * Top Left HLRE Logo
 ![HLRE Logo](images/hlre-logo-top-left.png)
 
+### Special Pages
+
+* HLRE Upcoming Events
+![HLRE Upcoming Events](images/hlre-upcoming-events.png)
+
 ### Cup Images
 
 * Top Right Series Logo

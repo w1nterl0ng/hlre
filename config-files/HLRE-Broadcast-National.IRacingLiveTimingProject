@@ -10485,15 +10485,14 @@ background-image: url(https://github.com/w1nterl0ng/hlre/raw/main/images/nat-lea
 }
 
 .overlay&gt;.replay-transition&gt;.container { /* Image to hide replay transition*/
-    background: url(https://www.sdk-gaming.co.uk/wp-content/uploads/SDK-Mask1.png);
+    background: url(https://github.com/w1nterl0ng/hlre/raw/main/images/hlre-replay-transition.png);
 }
 
+/* overriding this section for our upcoming races promo page, expect it to be 1920x1080 */
 .overlay&gt;.setup-cover { /* Image to automatically hide your iRacing garage screen*/
-    top: 100px; 
+    top: 0; 
     left: 0; 
-    right: 0; 
-    height: 700px; 
-    background-image: url(https://www.sdk-gaming.co.uk/wp-content/uploads/2019/08/Setup-Cover.png);
+    background-image: url(https://github.com/w1nterl0ng/hlre/raw/main/images/hlre-upcoming-events.png);
 }
 
 
