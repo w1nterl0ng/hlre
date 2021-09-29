@@ -10460,21 +10460,20 @@ background-image: url(https://github.com/w1nterl0ng/hlre/raw/main/images/cup-lea
 
 .overlay&gt;.logo2&gt;.logo-image { /*Top Left Logo - Use "width" to resize. If image is cut off after resizing  
                                            then adjust "width" and "height" in Main Logo Container to fit*/
-  filter: blur(0px);
-  background-image: url(https://www.sdk-gaming.co.uk/wp-content/uploads/2017/08/SDK-Gaming-logo-White-Small.png);
-  width: 428px;
-  filter: drop-shadow(2px 2px 2px black);
-/*  animation: logo-1-2 120s linear infinite;*/
+  width: 1920px;
+  height: 1080px;
+  background-image: url(https://github.com/w1nterl0ng/hlre/raw/main/images/hlre-upcoming-events.png);
 }
 
-.overlay&gt;.logo2 { /*Top Left Logo Container - Use "right" and "top" to reposition your logo. 
-                                         Resize the container with "width" and "height" if your logo is cut off*/
-    left: 10px;
-    top: 10px;
-    width: 600px;
-    height: 500px;
+.overlay&gt;.logo2 { /*Top Left Logo Container - Use "right" and "top" to reposition your logo. Resize the container with "width" and "height" if your logo is cut off*/
+  width: 1920px;
+  height: 1080px;
 }
 
+.overlay&gt;.logo2.hide {
+    transform: translateX(-1980px);
+    transition: transform 0.3s ease-in 0s;
+}
 
 .overlay { /*Logos displayed in Race Info, Grid, Results and Championship components*/
     --header-logo: url(https://github.com/w1nterl0ng/hlre/raw/main/images/hlre-logo-top-left.png);       /* Top left logo */
@@ -10485,7 +10484,7 @@ background-image: url(https://github.com/w1nterl0ng/hlre/raw/main/images/cup-lea
 }
 
 .overlay&gt;.replay-transition&gt;.container { /* Image to hide replay transition*/
-    background: url(https://www.sdk-gaming.co.uk/wp-content/uploads/SDK-Mask1.png);
+    background: url(https://github.com/w1nterl0ng/hlre/raw/main/images/hlre-replay-transition.png);
 }
 
 .overlay&gt;.setup-cover { /* Image to automatically hide your iRacing garage screen*/
