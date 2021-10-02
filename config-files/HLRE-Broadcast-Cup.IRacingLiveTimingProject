@@ -2110,7 +2110,7 @@
     "ScrollbarWidth": 16.0,
     "ScrollbarBorderWidth": 2.0,
     "VariableName": "Overlay.Title",
-    "VariableValue": "H&amp;H Tractor Work 90 at Las Vegas",
+    "VariableValue": "AG Solar Cup Series Championship",
     "Location": "80, 150",
     "Size": "120, 20",
     "Margin": "1, 1, 1, 1",
@@ -2851,7 +2851,7 @@
     "ScrollbarWidth": 16.0,
     "ScrollbarBorderWidth": 2.0,
     "VariableName": "Overlay.NascarTower2020.Title",
-    "VariableValue": "H&amp;H Tractor Work 90",
+    "VariableValue": "Series Championship",
     "Location": "290, 145",
     "Size": "120, 20",
     "Margin": "1, 1, 1, 1",
@@ -3737,7 +3737,7 @@
     "ScrollbarWidth": 16.0,
     "ScrollbarBorderWidth": 2.0,
     "VariableName": "Overlay.Title",
-    "VariableValue": "H&amp;H Tractor Work 90 at Las Vegas",
+    "VariableValue": "AG Solar Cup Series Championship",
     "Location": "295, 150",
     "Size": "120, 20",
     "Margin": "1, 1, 1, 1",
@@ -10424,6 +10424,16 @@ Overlay.ReplayTransition.ShowSound = "http://livetiming.sdk-gaming.co.uk/sounds/
     background-image: url(https://github.com/w1nterl0ng/hlre/raw/main/images/hlre-logo-top-left.png);
 }
 
+/* alternate driver Ryan Hyatt2 576373 */
+/* alternate driver Clay Cantrell 594094 */
+
+.overlay&gt;.nascar-tower-2020 .driver-block&gt;.d306425,
+.overlay&gt;.nascar-tower-2020 .driver-block&gt;.d289298,
+.overlay&gt;.nascar-tower-2020 .driver-block&gt;.d386908,
+.overlay&gt;.nascar-tower-2020 .driver-block&gt;.d353965 {
+    background: green;
+}
+
 .overlay&gt;.nascar-ticker-2020&gt;.logo-wrapper&gt;.logo { /* NASCAR Ticker Top Left Logo*/
 background-image: url(https://github.com/w1nterl0ng/hlre/raw/main/images/hlre-logo-top-left.png);
 width: 240px;
@@ -10432,6 +10442,17 @@ width: 240px;
 .overlay&gt;.nascar-ticker-2020&gt;.title-bar&gt;.logo { /*NASCAR Ticker Top Right Logo*/
 background-image: url(https://github.com/w1nterl0ng/hlre/raw/main/images/cup-league-logo-small.png?raw=true);
 }
+
+/* alternate driver Ryan Hyatt2 576373 */
+/* alternate driver Clay Cantrell 594094 */
+
+.overlay&gt;.nascar-ticker-2020&gt;.ticker-bar&gt;.ticker&gt;.nascar-driver.d306425 &gt;.upper-row,
+.overlay&gt;.nascar-ticker-2020&gt;.ticker-bar&gt;.ticker&gt;.nascar-driver.d289298 &gt;.upper-row,
+.overlay&gt;.nascar-ticker-2020&gt;.ticker-bar&gt;.ticker&gt;.nascar-driver.d386908 &gt;.upper-row,
+.overlay&gt;.nascar-ticker-2020&gt;.ticker-bar&gt;.ticker&gt;.nascar-driver.d353965 &gt;.upper-row {
+    background: green;
+}
+
 
 .overlay&gt;.logo&gt;.logo-image { /*Top Right Logo - Use "width" to resize. If image is cut off after resizing  
                                            then adjust "width" and "height" in Logo Container below to fit*/
@@ -12265,7 +12286,7 @@ figures to move the component around the overlay and use the "TranslateZ" value 
                 <value>442</value>
             </setting>
             <setting name="ProjectName" serializeAs="String">
-                <value>trauck-race-001</value>
+                <value>HLRE-Broadcast-Cup</value>
             </setting>
             <setting name="ProjectPath" serializeAs="String">
                 <value>C:\Users\white\Documents\iRacingLiveTiming</value>
